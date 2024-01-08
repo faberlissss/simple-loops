@@ -83,54 +83,11 @@ console.log('Знайти суму його парних дільників.');
 console.log(`Сума парних дільників числа ${num} = ${null10}`);
 
 console.log('Надрукувати повну таблицю множення від 1 до 10.');
-console.log('На 1');
-let q = 1;
-  for (let w = 0; w <= 10; w++){
-    console.log(`${q} * ${w}= ${q * w}`);
+for (let k = 0; k <= 10; k++) {
+  console.log(`Таблиця множення на ${k}`);
+  for (let l = 0; l <= 10; l++){
+    console.log(`${k} * ${l} = ${k * l}`);
+  }
 }
-console.log('На 2');
-let e = 2;
-  for (let r = 0; r <= 10; r++){
-    console.log(`${e} * ${r}= ${e * r}`);
-}
-console.log('На 3');
-let t = 3;
-  for (let y = 0; y <= 10; y++){
-    console.log(`${t} * ${y}= ${t * y}`);
-}
-console.log('На 4');
-let u = 4;
-  for (let i = 0; i <= 10; i++){
-    console.log(`${u} * ${i}= ${u * i}`);
-}
-console.log('На 5');
-let o = 5;
-  for (let p = 0; p <= 10; p++){
-    console.log(`${o} * ${p}= ${o * p}`);
-}
-console.log('На 6');
-let a = 6;
-  for (let s = 0; s <= 10; s++){
-    console.log(`${a} * ${s}= ${a * s}`);
-}
-console.log('На 7');
-let d = 7;
-  for (let f = 0; f <= 10; f++){
-    console.log(`${d} * ${f}= ${d * f}`);
-}
-console.log('На 8');
-let g = 8;
-  for (let h = 0; h <= 10; h++){
-    console.log(`${g} * ${h}= ${g * h}`);
-}
-console.log('На 9');
-let j = 9;
-  for (let k = 0; k <= 10; k++){
-    console.log(`${j} * ${k}= ${j * k}`);
-}
-console.log('На 10');
-let l = 10;
-  for (let z = 0; z <= 10; z++){
-    console.log(`${l} * ${z}= ${l * z}`);
-}
+
 
